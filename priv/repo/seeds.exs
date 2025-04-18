@@ -9,3 +9,10 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+alias Neweteria.Accounts
+
+{:ok, _} = Accounts.register_user(%{
+  email: "cangulo009@outlook.es",
+  password: "1999eteria2025"
+})

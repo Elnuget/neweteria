@@ -20,4 +20,4 @@ mix ecto.migrate
 para refrescar migraciones:
 mix ecto.reset
 para ejecutar las semillas:
-mix ecto.seed
+mix run priv/repo/seeds.exs
